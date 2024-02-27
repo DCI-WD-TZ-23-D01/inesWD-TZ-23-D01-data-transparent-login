@@ -1,0 +1,62 @@
+
+body{
+  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./__tests__/PHOTO-2024-02-07-17-53-00.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+ 
+legend{
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 5px solid greenyellow;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 20% auto;
+  width: 80%;
+  color: aliceblue;
+ 
+}
+.input-field{
+
+  margin-bottom: 15px;
+  position: relative;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  font-weight: bold;
+  border-bottom: 3px solid greenyellow;
+}
+
+.input-field i {
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+
+
+button{
+  margin: 40px auto;
+  border: 3px solid greenyellow;
+  width: 300px;
+  height: 40px;
+  background-color: transparent;
+  color: aliceblue;
+  display: table;
+}
